@@ -3,6 +3,6 @@ services:
      web:
         image: nginx
         volumes:
-           - /home/vadim_user/ngnex1:/usr/share/nginx/html
+           - /home/vadim_user/nginx:/usr/share/nginx/html
         ports:
            - "80:80"
